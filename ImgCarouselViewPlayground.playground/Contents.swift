@@ -26,14 +26,13 @@ viewController.view.addSubview(imgCarouselView)
 
 // configure imgCarouselView
 if let image = UIImage(named: "sample-m"),
-    let imageUrl01 = URL(string: "https://www.pakutaso.com/shared/img/thumb/taiyonotouSDIM3846_TP_V.jpg"),
-    let imageUrl02 = URL(string: "https://www.pakutaso.com/shared/img/thumb/NEKONEKOIMG_7878_TP_V.jpg") {
+    let imageUrl01 = URL(string: "http://yoshikuni-web.com/wp-content/uploads/2015/01/Radi-Hey1.png"),
+    let imageUrl02 = URL(string: "http://yoshikuni-web.com/wp-content/uploads/2017/02/iTunesArtwork-e1488015602699.png") {
     
     imgCarouselView.configure(
         imageSources: [
             .url(imageUrl01),
-            .url(imageUrl02),
-            .image(image)
+            .url(imageUrl02)
         ]
     )
     
